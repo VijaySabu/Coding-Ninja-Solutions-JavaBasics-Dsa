@@ -4,14 +4,11 @@ If the score is greater than 50 to 75 then it will remarked ‘Average’
 If the score is between 35 - 50 then it will be remarked ‘Below Average’.
 Input Format:
 First line contains an integer n denoting the number of students.
-
 Next n lines contain the score of the student.
-
 Output Format:
 Next n lines contain the remark of students.
 Constraints:
 1<n<=1000
-
 35<=score[i]<=100
 Sample Input1:
 2
@@ -19,25 +16,12 @@ Sample Input1:
 36
 
 78
-
-
 Sample Output 1:
-
-
 Below Average
-
 Distinction
-
-
 Explanation for Sample case 1:
-
-
 No explanation is required.
-
-
 Sample Input2:
-
-
 4
 
 76
@@ -49,14 +33,8 @@ Sample Input2:
 56
 
 Sample Output 2:
-
 Distinction
-
 Average
-
 Below Average
-
 Average
-
-
 Explanation for Sample case 2:
