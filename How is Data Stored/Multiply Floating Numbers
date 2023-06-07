@@ -1,0 +1,63 @@
+Given two floating numbers, ‘F1’ and ‘F2’, write a program to return the product of these floating numbers.
+Give your answer to 6 decimal places.
+Example:
+Input: ‘F1’ = 2.3, ‘F2’ = ‘2.1’
+
+Output: 4.830000
+
+Explanation: The result of F1 * F2 is ‘4.830000’.
+Input Format
+First-line contains 'TEST', denoting the number of Test cases.
+
+For each Test case:
+
+The first and only line contains two floating point numbers, ‘F1’, and 'F2', denoting the first and second floating point numbers, respectively.
+Output format:
+Return the product of these floating point numbers.
+Note:-
+You don't need to print anything. Just implement the given function.
+Constraints:
+1 <= TEST <= 10
+1.0 <= F1, F2 <= 10000.0
+
+Time Limit: 1-sec
+Sample Input 1:
+2
+2.3 2.1
+1.0 2.3
+Sample Output 1:
+4.830000
+2.300000
+Explanation Of Sample Input 1:
+For test case 1:
+
+Input: ‘F1’ = 2.3, ‘F2’ = ‘2.1’
+
+Output: 4.830000
+
+Explanation: The result of F1 * F2 is ‘4.830000’.
+
+
+For test case 2:
+
+Input: ‘F1’ = 1.0, ‘F2’ = ‘2.3’
+
+Output: 2.300000
+
+Explanation: The result of F1 * F2 is ‘2.300000’.
+Sample Input 2:
+2
+6.78 3.21
+10.23 6.325
+Sample Output 2:
+21.763800
+64.704750
+
+Solution :-
+public class Solution {
+    public static double multiplyFloatingNumbers(double f1, double f2) {
+        
+        double mul = f1*f2;
+        return mul;
+    }
+}
