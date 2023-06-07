@@ -1,32 +1,19 @@
 Teacher is remarking students on the basis of their score. Criteria for remarking students are as follows:
-
-
 If the score is greater than 75 to 100 then it will be remarked ‘Distinction’.
 If the score is greater than 50 to 75 then it will remarked ‘Average’
 If the score is between 35 - 50 then it will be remarked ‘Below Average’.
 Input Format:
-
-
 First line contains an integer n denoting the number of students.
 
 Next n lines contain the score of the student.
 
-
 Output Format:
-
-
 Next n lines contain the remark of students.
-
-
 Constraints:
-
-
 1<n<=1000
 
 35<=score[i]<=100
 Sample Input1:
-
-
 2
 
 36
