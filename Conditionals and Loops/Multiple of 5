@@ -18,8 +18,8 @@ Sample Output 2:
 Multiple of 5
 
 Solutions : - 
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class Solution {
 	public static void multipleOf5(int n) {
         if ((n%5)==0){
