@@ -40,3 +40,21 @@ Average
 Explanation for Sample case 2:
 
 Solution:-
+import java.util.Scanner;
+ public class Solution {
+    public static String remarkStudent(int score) {
+        Scanner sc = new Scanner(System.in);
+        if( score > 75 && score <= 100){
+            return "Distinction";
+        }
+       else if (score > 50 && score <= 75){
+           return "Average";
+        }
+        else{
+            return "Below Average";
+        }
+    
+    
+
+    }
+}
