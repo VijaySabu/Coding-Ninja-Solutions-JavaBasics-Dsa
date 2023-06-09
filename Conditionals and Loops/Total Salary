@@ -37,10 +37,10 @@ Since, the grade is 'B', we take allowance as Rs. 1500.
 On substituting these values to the formula of totalSalary, we get Rs. 8761.53 and now rounding it off will result in Rs. 8762 and hence the Answer.
 
 Solution :-
+
 import java.util.Scanner;
 public class Main {
-	
-	public static void main(String[] args) {
+public static void main(String[] args) {
 
     Scanner s=new Scanner(System.in);
     int basic=s.nextInt();
